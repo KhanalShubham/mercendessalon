@@ -34,6 +34,22 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
 
+    // Handle page title & meta description translation
+    const titleEl = document.querySelector("title");
+    if (titleEl) {
+      const titleKey = titleEl.getAttribute("data-i18n");
+      if (titleKey && translations[lang]?.[titleKey]) {
+        document.title = translations[lang][titleKey];
+      }
+    }
+    const metaDesc = document.querySelector('meta[name="description"]');
+    if (metaDesc) {
+      const descKey = metaDesc.getAttribute("data-i18n");
+      if (descKey && translations[lang]?.[descKey]) {
+        metaDesc.setAttribute("content", translations[lang][descKey]);
+      }
+    }
+
     // Handle data-i18n-placeholder attributes (inputs/textareas)
     document.querySelectorAll("[data-i18n-placeholder]").forEach(el => {
       const key = el.getAttribute("data-i18n-placeholder");
@@ -351,6 +367,46 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
+
+  // -------------------------------------------------------------------------
+  // -------------------------------------------------------------------------
+  // Before/After Slider
+  // -------------------------------------------------------------------------
+  const baSlider = document.querySelector(".ba-slider");
+  if (baSlider) {
+    const resizeDiv = baSlider.querySelector(".ba-resize");
+    const rangeInput = baSlider.querySelector(".ba-range");
+    const handle = baSlider.querySelector(".ba-handle");
+
+    if (resizeDiv && rangeInput && handle) {
+      rangeInput.addEventListener("input", (e) => {
+        const sliderValue = e.target.value;
+        resizeDiv.style.width = `${sliderValue}%`;
+        handle.style.left = `${sliderValue}%`;
+      });
+    }
+  }
+
+  // -------------------------------------------------------------------------
+  // FAQ Accordion
+  // -------------------------------------------------------------------------
+  const faqItems = document.querySelectorAll(".faq-item");
+  faqItems.forEach(item => {
+    const questionBtn = item.querySelector(".faq-question");
+    if (questionBtn) {
+      questionBtn.addEventListener("click", () => {
+        const isOpen = item.classList.contains("active");
+        faqItems.forEach(i => {
+          i.classList.remove("active");
+          i.querySelector(".faq-question")?.setAttribute("aria-expanded", "false");
+        });
+        if (!isOpen) {
+          item.classList.add("active");
+          questionBtn.setAttribute("aria-expanded", "true");
+        }
+      });
+    }
+  });
 
   // -------------------------------------------------------------------------
   // Scroll Reveal (Intersection Observer)

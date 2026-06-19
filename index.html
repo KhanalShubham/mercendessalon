@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Mercedes Salon — Baytown, TX</title>
-  <meta name="description" content="Mercedes Salon in Baytown, TX. Premium hair, nails, and beauty services. Book your appointment today." />
+  <meta name="description" content="Mercedes Salon in Baytown, TX. Premium hair transformation, balayage, and color correction services. Book your appointment today." />
 
   <!-- Poppins -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -30,18 +30,18 @@
       <nav class="nav-menu" role="navigation" aria-label="Main navigation">
         <a href="#hero"     class="nav-link" data-i18n="nav_home">Home</a>
         <a href="#services" class="nav-link" data-i18n="nav_services">Services</a>
-        <a href="#gallery"  class="nav-link" data-i18n="nav_gallery">Gallery</a>
+        <a href="#transformations"  class="nav-link" data-i18n="nav_gallery">Gallery</a>
         <a href="#about"    class="nav-link" data-i18n="nav_about">About</a>
         <a href="#contact"  class="nav-link" data-i18n="nav_contact">Contact</a>
       </nav>
 
       <div class="header-actions">
-        <button class="lang-toggle" aria-label="Switch language">
+        <div class="lang-toggle" role="group" aria-label="Switch language">
           <button class="lang-btn active" data-lang="en" aria-pressed="true">EN</button>
           <span class="lang-divider">/</span>
           <button class="lang-btn" data-lang="es" aria-pressed="false">ES</button>
-        </button>
-        <a href="#booking" class="btn btn-primary header-cta" data-i18n="nav_book">Book Appointment</a>
+        </div>
+        <a href="#booking" class="btn btn-primary header-cta" data-i18n="nav_book">Book a Consultation</a>
         <button class="mobile-nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
           <span></span><span></span><span></span>
         </button>
@@ -51,485 +51,496 @@
 
 
   <!-- ================================================================
-       HERO — Trekcave-inspired massive headline + rounded image card
+       HERO — 45/55 Split Redesign
        ================================================================ -->
   <section id="hero" class="hero">
-    <div class="hero-main">
+    <div class="container">
+      <div class="hero-main">
 
-      <!-- LEFT: Text -->
-      <div class="hero-text">
-        <span class="deco-plus" aria-hidden="true">+</span>
+        <!-- LEFT: Text Column (45%) -->
+        <div class="hero-text">
+          <span class="deco-plus" aria-hidden="true">+</span>
 
-        <div class="hero-eyebrow">
-          <span class="hero-eyebrow-dot" aria-hidden="true"></span>
-          <span data-i18n="hero_location">Baytown, Texas</span>
-        </div>
-
-        <h1 class="hero-headline" data-i18n="hero_headline">Mercedes<br><em>Salon.</em></h1>
-
-        <p class="hero-sub" data-i18n="hero_sub">Premium Beauty &amp; Hair Studio</p>
-
-        <p class="hero-desc" data-i18n="hero_desc">
-          Your destination for transformative hair, nails, and beauty services in Baytown. Walk in confident, leave extraordinary.
-        </p>
-
-        <div class="hero-actions">
-          <a href="#booking" class="btn-hero-book" aria-label="Book appointment">
-            <span data-i18n="hero_cta_book">Book Now</span>
-            <span class="btn-hero-arrow" aria-hidden="true">→</span>
-          </a>
-          <a href="https://wa.me/12814224231" target="_blank" rel="noopener" class="btn-hero-wa">
-            <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
-            <span data-i18n="hero_cta_wa">WhatsApp Us</span>
-          </a>
-        </div>
-
-        <div class="hero-proof">
-          <div class="av-stack" aria-hidden="true">
-            <span class="av-dot" style="background:#D4A373;"></span>
-            <span class="av-dot" style="background:#B8845A;"></span>
-            <span class="av-dot" style="background:#8B6347;"></span>
-            <span class="av-dot" style="background:#6B4F3A;"></span>
+          <div class="hero-eyebrow">
+            <span class="hero-eyebrow-dot" aria-hidden="true"></span>
+            <span data-i18n="hero_location">Baytown, Texas</span>
           </div>
-          <p class="proof-text">
-            <strong data-i18n="hero_proof_count">200+</strong>
-            <span data-i18n="hero_proof_label"> happy clients served</span>
+
+          <h1 class="hero-headline" data-i18n="hero_headline">Luxury Hair Color<br>Transformations<br><em>That Turn Heads.</em></h1>
+
+          <p class="hero-sub" data-i18n="hero_sub">Balayage • Blonding • Color Correction</p>
+
+          <p class="hero-desc" data-i18n="hero_desc">
+            Led by master colorist Mercedes, we craft bespoke balayage, dimensional highlights, and expert color corrections. We don't just change hair; we engineer transformations.
           </p>
-        </div>
-      </div>
 
-      <!-- RIGHT: Image card -->
-      <div class="hero-visual" aria-hidden="true">
-        <div class="hero-img-card">
-          <img
-            src="photos/Screenshot 2026-06-12 221039.png"
-            alt="Vivid red hair transformation at Mercedes Salon"
-            loading="eager"
-          />
-
-          <!-- Floating info badge -->
-          <div class="hero-float-badge">
-            <div class="float-badge-icon">
-              <i class="fa-solid fa-scissors"></i>
-            </div>
-            <div class="float-badge-text">
-              <div class="float-badge-title" data-i18n="hero_badge_title">Hair Transformation</div>
-              <div class="float-badge-sub" data-i18n="hero_badge_sub">Premium Styling</div>
-            </div>
+          <div class="hero-actions">
+            <a href="#booking" class="btn-hero-book" aria-label="Book consultation">
+              <span data-i18n="hero_cta_book">Book a Consultation</span>
+              <span class="btn-hero-arrow" aria-hidden="true">→</span>
+            </a>
+            <a href="https://wa.me/12814224231" target="_blank" rel="noopener" class="btn-hero-wa">
+              <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+              <span data-i18n="hero_cta_wa">WhatsApp Us</span>
+            </a>
           </div>
 
-          <!-- Client count badge -->
-          <div class="hero-client-badge">
-            <div class="client-badge-avs">
-              <span class="client-av" style="background:#D4A373;"></span>
-              <span class="client-av" style="background:#B8845A;"></span>
-              <span class="client-av" style="background:#8B6347;"></span>
-            </div>
-            <div class="client-badge-text">
-              <span data-i18n="hero_client_count">200+ Clients</span>
-              <span data-i18n="hero_client_sub">Love their look</span>
-            </div>
+          <div class="hero-proof">
+            <a href="https://maps.google.com/?q=Mercedes+Salon+Baytown+TX" target="_blank" rel="noopener" class="hero-proof-link">
+              <div class="hero-stars">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <p class="proof-text">
+                <strong>4.9 ★</strong> <span data-i18n="hero_lbl_rating">Google Rating (237 Reviews)</span>
+              </p>
+            </a>
           </div>
         </div>
 
-        <span class="hero-deco-right" aria-hidden="true">+</span>
-      </div>
+        <!-- RIGHT: Visual Column (55%) -->
+        <div class="hero-visual" aria-hidden="true">
+          <div class="hero-img-card">
+            <img
+              src="photos/hero_transformation.png"
+              alt="Premium hair color transformation at Mercedes Studio"
+              loading="eager"
+            />
 
+            <!-- Floating badge top-right -->
+            <div class="hero-float-badge badge-tr">
+              <div class="badge-icon"><i class="fa-solid fa-scissors"></i></div>
+              <div class="badge-text">
+                <div class="badge-value">1,248</div>
+                <div class="badge-label" data-i18n="trust_lbl_transformations">Transformations</div>
+              </div>
+            </div>
+
+            <!-- Floating badge middle-left -->
+            <div class="hero-float-badge badge-ml">
+              <div class="badge-icon" style="background:#D4AF37;"><i class="fa-solid fa-star"></i></div>
+              <div class="badge-text">
+                <div class="badge-value">4.9 ★</div>
+                <div class="badge-label" data-i18n="trust_lbl_rating">Google Rating</div>
+              </div>
+            </div>
+
+            <!-- Floating badge bottom-right -->
+            <div class="hero-float-badge badge-br">
+              <div class="badge-icon"><i class="fa-solid fa-medal"></i></div>
+              <div class="badge-text">
+                <div class="badge-value" data-i18n="hero_badge_sub">Color Specialist</div>
+                <div class="badge-label">Mercedes Studio</div>
+              </div>
+            </div>
+          </div>
+
+          <span class="hero-deco-right" aria-hidden="true">+</span>
+        </div>
+
+      </div>
     </div>
   </section>
 
 
   <!-- ================================================================
-       SERVICE STRIP — Trekcave horizontal image cards
+       BEFORE/AFTER TRANSFORMATIONS SLIDER & MASONRY GALLERY
+       ================================================================ -->
+  <section id="transformations" class="transformations section">
+    <div class="container">
+      <div class="section-header reveal-on-scroll">
+        <span class="section-label" data-i18n="gallery_label">The Portfolio</span>
+        <h2 class="section-title" data-i18n="gallery_title">Transformations Gallery</h2>
+        <p class="section-subtitle" data-i18n="gallery_subtitle">Real results from real clients at Mercedes Hair Transformation Studio.</p>
+      </div>
+
+      <!-- Before/After Slider -->
+      <div class="ba-slider-container reveal-on-scroll">
+        <div class="ba-slider">
+          <img class="ba-image ba-image-before" src="photos/balayage_before.png" alt="Before color transformation" />
+          <div class="ba-resize">
+            <img class="ba-image ba-image-after" src="photos/balayage_after.png" alt="After balayage transformation" />
+          </div>
+          <input type="range" min="0" max="100" value="50" class="ba-range" aria-label="Before and after color comparison slider" />
+          <div class="ba-handle">
+            <span class="ba-arrow-left"></span>
+            <span class="ba-arrow-right"></span>
+          </div>
+        </div>
+        <div class="ba-slider-labels">
+          <span class="ba-label ba-label-before">Before</span>
+          <span class="ba-label ba-label-after" data-i18n="ba_label_after">After Transformation</span>
+        </div>
+      </div>
+
+      <!-- Gallery Filters -->
+      <div class="gallery-filters reveal-on-scroll delay-100">
+        <button class="tab-btn active" data-filter="all"    data-i18n="gf_all">All Work</button>
+        <button class="tab-btn"        data-filter="color"  data-i18n="gf_color">Balayage & Color</button>
+        <button class="tab-btn"        data-filter="cuts"   data-i18n="gf_cuts">Structural Cuts</button>
+        <button class="tab-btn"        data-filter="salon"  data-i18n="gf_salon">The Space</button>
+      </div>
+
+      <div class="gallery-grid reveal-on-scroll delay-200">
+        <div class="gallery-item" data-category="salon">
+          <div class="gallery-img-wrap">
+            <img src="photos/salon_interior.png" alt="Salon Interior" loading="lazy" />
+            <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="color">
+          <div class="gallery-img-wrap">
+            <img src="photos/balayage_after.png" alt="Dimensional Balayage" loading="lazy" />
+            <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="color">
+          <div class="gallery-img-wrap">
+            <img src="photos/hero_transformation.png" alt="Vivid Color Correction" loading="lazy" />
+            <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="color">
+          <div class="gallery-img-wrap">
+            <img src="photos/highlights.png" alt="Dimensional Highlights" loading="lazy" />
+            <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="cuts">
+          <div class="gallery-img-wrap">
+            <img src="photos/styling.png" alt="Precision Structural Cut & Style" loading="lazy" />
+            <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+          </div>
+        </div>
+
+        <div class="gallery-item" data-category="salon">
+          <div class="gallery-img-wrap">
+            <img src="photos/mercedes_stylist.png" alt="Mercedes working in studio" loading="lazy" />
+            <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ================================================================
+       TRUST METRICS & MEET MERCEDES
+       ================================================================ -->
+  <section class="trust-metrics section">
+    <div class="container">
+      <div class="trust-grid reveal-on-scroll">
+        <div class="trust-item">
+          <div class="trust-value" data-i18n="trust_val_transformations">1,248</div>
+          <div class="trust-label" data-i18n="trust_lbl_transformations">Hair Transformations</div>
+        </div>
+        <div class="trust-item">
+          <div class="trust-value" data-i18n="trust_val_experience">16</div>
+          <div class="trust-label" data-i18n="trust_lbl_experience">Years behind the chair</div>
+        </div>
+        <a href="https://maps.google.com/?q=Mercedes+Salon+Baytown+TX" target="_blank" rel="noopener" class="trust-item trust-item-link">
+          <div class="trust-value"><span data-i18n="trust_val_rating">4.9</span> <span class="trust-star-accent">★</span></div>
+          <div class="trust-label" data-i18n="trust_lbl_rating">Google Rating (237 Reviews)</div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about section">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image-wrap reveal-on-scroll">
+          <img src="photos/mercedes_stylist.png" alt="Mercedes, Master Colorist & Stylist" loading="lazy" />
+        </div>
+
+        <div class="about-content reveal-on-scroll delay-200">
+          <span class="about-eyebrow" data-i18n="about_label">Meet Mercedes</span>
+          <h2 class="about-title" data-i18n="about_title">Transformations Engineered with Art & Science</h2>
+          <p class="about-body" data-i18n="about_p1">
+            With over 16 years behind the chair, Mercedes is a dedicated Hair Transformation Specialist. She focuses entirely on the art of dimensional color, structural health, and bespoke styling.
+          </p>
+          <p class="about-body" data-i18n="about_p2">
+            At our Garth Road studio in Baytown, TX, we serve clients who demand premium results, prioritizing hair integrity above all else. Every transformation is backed by advanced education and top-tier product lines.
+          </p>
+          <ul class="about-features">
+            <li class="about-feat"><span class="about-feat-dot"></span><span data-i18n="about_feat1">Certified Master Colorist & Balayage Specialist</span></li>
+            <li class="about-feat"><span class="about-feat-dot"></span><span data-i18n="about_feat2">Advanced Olaplex & bond-building formulations</span></li>
+            <li class="about-feat"><span class="about-feat-dot"></span><span data-i18n="about_feat3">Seamless bilingual consultations (English & Spanish)</span></li>
+            <li class="about-feat"><span class="about-feat-dot"></span><span data-i18n="about_feat4">Focused, one-on-one appointments for ultimate care</span></li>
+          </ul>
+          <div class="about-ctas">
+            <a href="#booking" class="btn btn-primary" data-i18n="about_cta_book">Book a Consultation</a>
+            <a href="#contact" class="btn btn-outline" data-i18n="about_cta_contact">Contact Studio</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ================================================================
+       SERVICE STRIP & GRID (7 Services with links to SEO pages)
        ================================================================ -->
   <div class="svc-strip">
     <div class="container">
       <div class="svc-strip-inner">
-
         <div class="svc-strip-header">
-          <h2 class="svc-strip-title" data-i18n="strip_title">Our Services</h2>
+          <h2 class="svc-strip-title" data-i18n="strip_title">Featured Services</h2>
           <div class="svc-strip-nav">
-            <button class="svc-nav-btn" id="svcPrev" aria-label="Scroll left">
-              <i class="fa-solid fa-arrow-left"></i>
-            </button>
-            <button class="svc-nav-btn" id="svcNext" aria-label="Scroll right">
-              <i class="fa-solid fa-arrow-right"></i>
-            </button>
+            <button class="svc-nav-btn" id="svcPrev" aria-label="Scroll left"><i class="fa-solid fa-arrow-left"></i></button>
+            <button class="svc-nav-btn" id="svcNext" aria-label="Scroll right"><i class="fa-solid fa-arrow-right"></i></button>
           </div>
         </div>
 
         <div class="svc-scroll-track" id="svcTrack">
-
           <article class="svc-card">
-            <img src="photos/Screenshot 2026-06-12 221031.png" alt="Haircuts and styling" loading="lazy" />
-            <div class="svc-card-overlay"></div>
-            <span class="svc-card-price" data-i18n="srv_haircuts_price">From $35</span>
-            <div class="svc-card-body">
-              <div class="svc-card-stars">★★★★★</div>
-              <div class="svc-card-name" data-i18n="srv_haircuts_title">Haircuts &amp; Styling</div>
-              <div class="svc-card-meta" data-i18n="srv_haircuts_meta">Custom cuts · Blowout</div>
-            </div>
+            <a href="balayage-baytown-tx.html" class="svc-card-link">
+              <img src="photos/balayage_after.png" alt="Balayage Mastery" loading="lazy" />
+              <div class="svc-card-overlay"></div>
+              <span class="svc-card-price" data-i18n="srv_balayage_price">From $185</span>
+              <div class="svc-card-body">
+                <div class="svc-card-stars">★★★★★</div>
+                <div class="svc-card-name" data-i18n="srv_balayage_title">Balayage Mastery</div>
+                <div class="svc-card-meta" data-i18n="srv_balayage_meta">Custom hand-painted color</div>
+              </div>
+            </a>
           </article>
 
           <article class="svc-card">
-            <img src="photos/Screenshot 2026-06-12 221049.png" alt="Color and highlights" loading="lazy" />
-            <div class="svc-card-overlay"></div>
-            <span class="svc-card-price" data-i18n="srv_color_price">From $65</span>
-            <div class="svc-card-body">
-              <div class="svc-card-stars">★★★★★</div>
-              <div class="svc-card-name" data-i18n="srv_color_title">Color &amp; Highlights</div>
-              <div class="svc-card-meta" data-i18n="srv_color_meta">Balayage · Ombre · Foils</div>
-            </div>
+            <a href="color-correction-baytown-tx.html" class="svc-card-link">
+              <img src="photos/hero_transformation.png" alt="Color Correction" loading="lazy" />
+              <div class="svc-card-overlay"></div>
+              <span class="svc-card-price" data-i18n="srv_correction_price">Consultation</span>
+              <div class="svc-card-body">
+                <div class="svc-card-stars">★★★★★</div>
+                <div class="svc-card-name" data-i18n="srv_correction_title">Color Correction</div>
+                <div class="svc-card-meta" data-i18n="srv_correction_meta">Expert restoration & transformation</div>
+              </div>
+            </a>
           </article>
 
           <article class="svc-card">
-            <img src="photos/Screenshot 2026-06-12 221127.png" alt="Nail services" loading="lazy" />
-            <div class="svc-card-overlay"></div>
-            <span class="svc-card-price" data-i18n="srv_nails_price">From $28</span>
-            <div class="svc-card-body">
-              <div class="svc-card-stars">★★★★★</div>
-              <div class="svc-card-name" data-i18n="srv_nails_title">Nail Services</div>
-              <div class="svc-card-meta" data-i18n="srv_nails_meta">Gel · Acrylic · Nail Art</div>
-            </div>
+            <a href="highlights-baytown-tx.html" class="svc-card-link">
+              <img src="photos/highlights.png" alt="Dimensional Highlights" loading="lazy" />
+              <div class="svc-card-overlay"></div>
+              <span class="svc-card-price" data-i18n="srv_highlights_price">From $145</span>
+              <div class="svc-card-body">
+                <div class="svc-card-stars">★★★★★</div>
+                <div class="svc-card-name" data-i18n="srv_highlights_title">Dimensional Highlights</div>
+                <div class="svc-card-meta" data-i18n="srv_highlights_meta">Dimensional highlights & lowlights</div>
+              </div>
+            </a>
           </article>
 
           <article class="svc-card">
-            <img src="photos/Screenshot 2026-06-12 221153.png" alt="Beauty treatments" loading="lazy" />
-            <div class="svc-card-overlay"></div>
-            <span class="svc-card-price" data-i18n="srv_beauty_price">From $45</span>
-            <div class="svc-card-body">
-              <div class="svc-card-stars">★★★★★</div>
-              <div class="svc-card-name" data-i18n="srv_beauty_title">Beauty Treatments</div>
-              <div class="svc-card-meta" data-i18n="srv_beauty_meta">Facials · Lashes · Brows</div>
-            </div>
+            <a href="hair-color-baytown-tx.html" class="svc-card-link">
+              <img src="photos/hero_transformation.png" alt="Custom Hair Color" loading="lazy" />
+              <div class="svc-card-overlay"></div>
+              <span class="svc-card-price" data-i18n="srv_color_price">From $95</span>
+              <div class="svc-card-body">
+                <div class="svc-card-stars">★★★★★</div>
+                <div class="svc-card-name" data-i18n="srv_color_title">Custom Hair Color</div>
+                <div class="svc-card-meta" data-i18n="srv_color_meta">All-over premium global color</div>
+              </div>
+            </a>
           </article>
 
           <article class="svc-card">
-            <img src="photos/Screenshot 2026-06-12 221203.png" alt="Blowout and finish" loading="lazy" />
-            <div class="svc-card-overlay"></div>
-            <span class="svc-card-price" data-i18n="srv_blowout_price">From $40</span>
-            <div class="svc-card-body">
-              <div class="svc-card-stars">★★★★★</div>
-              <div class="svc-card-name" data-i18n="srv_blowout_title">Blowout &amp; Finish</div>
-              <div class="svc-card-meta" data-i18n="srv_blowout_meta">Silk press · Keratin</div>
-            </div>
+            <a href="#booking" class="svc-card-link">
+              <img src="photos/styling.png" alt="Structural Cuts" loading="lazy" />
+              <div class="svc-card-overlay"></div>
+              <span class="svc-card-price" data-i18n="srv_haircuts_price">From $65</span>
+              <div class="svc-card-body">
+                <div class="svc-card-stars">★★★★★</div>
+                <div class="svc-card-name" data-i18n="srv_haircuts_title">Structural Cuts</div>
+                <div class="svc-card-meta" data-i18n="srv_haircuts_meta">Precision & face framing</div>
+              </div>
+            </a>
           </article>
 
           <article class="svc-card">
-            <img src="photos/Screenshot 2026-06-12 221110.png" alt="Salon packages" loading="lazy" />
-            <div class="svc-card-overlay"></div>
-            <span class="svc-card-price" data-i18n="srv_salon_price">Packages</span>
-            <div class="svc-card-body">
-              <div class="svc-card-stars">★★★★★</div>
-              <div class="svc-card-name" data-i18n="srv_salon_title">Salon Packages</div>
-              <div class="svc-card-meta" data-i18n="srv_salon_meta">Full-day makeover</div>
-            </div>
+            <a href="#booking" class="svc-card-link">
+              <img src="photos/styling.png" alt="Signature Blowout" loading="lazy" />
+              <div class="svc-card-overlay"></div>
+              <span class="svc-card-price" data-i18n="srv_blowout_price">From $55</span>
+              <div class="svc-card-body">
+                <div class="svc-card-stars">★★★★★</div>
+                <div class="svc-card-name" data-i18n="srv_blowout_title">Signature Blowout</div>
+                <div class="svc-card-meta" data-i18n="srv_blowout_meta">Sleek finish & styling</div>
+              </div>
+            </a>
           </article>
 
           <article class="svc-card">
-            <img src="photos/Screenshot 2026-06-12 221214.png" alt="Bridal styling" loading="lazy" />
-            <div class="svc-card-overlay"></div>
-            <span class="svc-card-price" data-i18n="srv_bridal_price">From $120</span>
-            <div class="svc-card-body">
-              <div class="svc-card-stars">★★★★★</div>
-              <div class="svc-card-name" data-i18n="srv_bridal_title">Bridal Styling</div>
-              <div class="svc-card-meta" data-i18n="srv_bridal_meta">Wedding · Quinceanera</div>
-            </div>
+            <a href="#booking" class="svc-card-link">
+              <img src="photos/salon_interior.png" alt="Luxury Treatments" loading="lazy" />
+              <div class="svc-card-overlay"></div>
+              <span class="svc-card-price" data-i18n="srv_treatments_price">From $45</span>
+              <div class="svc-card-body">
+                <div class="svc-card-stars">★★★★★</div>
+                <div class="svc-card-name" data-i18n="srv_treatments_title">Luxury Treatments</div>
+                <div class="svc-card-meta" data-i18n="srv_treatments_meta">Olaplex & deep conditioning</div>
+              </div>
+            </a>
           </article>
-
-          <article class="svc-card">
-            <img src="photos/Screenshot 2026-06-12 221020.png" alt="Braids and textures" loading="lazy" />
-            <div class="svc-card-overlay"></div>
-            <span class="svc-card-price" data-i18n="srv_braids_price">From $55</span>
-            <div class="svc-card-body">
-              <div class="svc-card-stars">★★★★★</div>
-              <div class="svc-card-name" data-i18n="srv_braids_title">Braids &amp; Textures</div>
-              <div class="svc-card-meta" data-i18n="srv_braids_meta">Box braids · Twists</div>
-            </div>
-          </article>
-
         </div>
       </div>
     </div>
   </div>
 
-
-  <!-- ================================================================
-       SERVICES — Full grid section
-       ================================================================ -->
   <section id="services" class="services section">
     <div class="container">
       <div class="section-header reveal-on-scroll">
-        <span class="section-label" data-i18n="services_label">What We Offer</span>
-        <h2 class="section-title" data-i18n="services_title">Transformative<br>Beauty Services</h2>
-        <p class="section-subtitle" data-i18n="services_subtitle">Eight premium services tailored to bring out the best in you.</p>
+        <span class="section-label" data-i18n="services_label">Bespoke Services</span>
+        <h2 class="section-title" data-i18n="services_title">Transformative<br>Hair Disciplines</h2>
+        <p class="section-subtitle" data-i18n="services_subtitle">Specialized color and styling services engineered to master your hair's potential.</p>
       </div>
 
       <div class="services-tabs reveal-on-scroll delay-100">
-        <button class="tab-btn active" data-filter="all"    data-i18n="tab_all">All</button>
-        <button class="tab-btn"        data-filter="hair"   data-i18n="tab_hair">Hair</button>
-        <button class="tab-btn"        data-filter="nails"  data-i18n="tab_nails">Nails</button>
-        <button class="tab-btn"        data-filter="beauty" data-i18n="tab_beauty">Beauty</button>
+        <button class="tab-btn active" data-filter="all"    data-i18n="tab_all">All Services</button>
+        <button class="tab-btn"        data-filter="color"  data-i18n="tab_color">Color & Correction</button>
+        <button class="tab-btn"        data-filter="style"  data-i18n="tab_style">Precision Cuts & Style</button>
+        <button class="tab-btn"        data-filter="care"   data-i18n="tab_care">Hair Health & Care</button>
       </div>
 
       <div class="services-grid">
-
-        <article class="service-card reveal-on-scroll" data-category="hair">
-          <div class="service-img-wrap">
-            <img class="service-img" src="photos/Screenshot 2026-06-12 221031.png" alt="Haircuts and styling" loading="lazy" />
-          </div>
-          <div class="service-body">
-            <h3 class="service-name" data-i18n="srv_haircuts_title">Haircuts &amp; Styling</h3>
-            <p class="service-desc" data-i18n="srv_haircuts_desc">Precision cuts and style finishes tailored to your face shape and lifestyle.</p>
-            <span class="service-price-tag" data-i18n="srv_haircuts_price">From $35</span>
-          </div>
+        <article class="service-card reveal-on-scroll" data-category="color">
+          <a href="balayage-baytown-tx.html" class="service-card-link">
+            <div class="service-img-wrap">
+              <img class="service-img" src="photos/balayage_after.png" alt="Balayage Mastery" loading="lazy" />
+            </div>
+            <div class="service-body">
+              <h3 class="service-name"><span data-i18n="srv_balayage_title">Balayage Mastery</span> <i class="fa-solid fa-arrow-right service-link-arrow"></i></h3>
+              <p class="service-desc" data-i18n="srv_balayage_desc">Custom hand-painted color and lived-in dimension tailored to complement your style and skin tone.</p>
+              <span class="service-price-tag" data-i18n="srv_balayage_price">From $185</span>
+            </div>
+          </a>
         </article>
 
-        <article class="service-card reveal-on-scroll delay-100" data-category="hair">
-          <div class="service-img-wrap">
-            <img class="service-img" src="photos/Screenshot 2026-06-12 221049.png" alt="Color and highlights" loading="lazy" />
-          </div>
-          <div class="service-body">
-            <h3 class="service-name" data-i18n="srv_color_title">Color &amp; Highlights</h3>
-            <p class="service-desc" data-i18n="srv_color_desc">Balayage, ombre, full color, and foil highlights using premium color systems.</p>
-            <span class="service-price-tag" data-i18n="srv_color_price">From $65</span>
-          </div>
+        <article class="service-card reveal-on-scroll delay-100" data-category="color">
+          <a href="color-correction-baytown-tx.html" class="service-card-link">
+            <div class="service-img-wrap">
+              <img class="service-img" src="photos/hero_transformation.png" alt="Color Correction" loading="lazy" />
+            </div>
+            <div class="service-body">
+              <h3 class="service-name"><span data-i18n="srv_correction_title">Color Correction</span> <i class="fa-solid fa-arrow-right service-link-arrow"></i></h3>
+              <p class="service-desc" data-i18n="srv_correction_desc">Expert chemical correction to restore compromised hair health and guide you to your target shade.</p>
+              <span class="service-price-tag" data-i18n="srv_correction_price">Consultation</span>
+            </div>
+          </a>
         </article>
 
-        <article class="service-card reveal-on-scroll delay-200" data-category="nails">
-          <div class="service-img-wrap">
-            <img class="service-img" src="photos/Screenshot 2026-06-12 221127.png" alt="Nail art" loading="lazy" />
-          </div>
-          <div class="service-body">
-            <h3 class="service-name" data-i18n="srv_nails_title">Nail Services</h3>
-            <p class="service-desc" data-i18n="srv_nails_desc">Gel, acrylic, manicure, pedicure, and intricate nail art for every occasion.</p>
-            <span class="service-price-tag" data-i18n="srv_nails_price">From $28</span>
-          </div>
+        <article class="service-card reveal-on-scroll delay-200" data-category="color">
+          <a href="highlights-baytown-tx.html" class="service-card-link">
+            <div class="service-img-wrap">
+              <img class="service-img" src="photos/highlights.png" alt="Dimensional Highlights" loading="lazy" />
+            </div>
+            <div class="service-body">
+              <h3 class="service-name"><span data-i18n="srv_highlights_title">Dimensional Highlights</span> <i class="fa-solid fa-arrow-right service-link-arrow"></i></h3>
+              <p class="service-desc" data-i18n="srv_highlights_desc">Add depth, brightness, and movement with expertly placed highlights or lowlights.</p>
+              <span class="service-price-tag" data-i18n="srv_highlights_price">From $145</span>
+            </div>
+          </a>
         </article>
 
-        <article class="service-card reveal-on-scroll delay-300" data-category="beauty">
-          <div class="service-img-wrap">
-            <img class="service-img" src="photos/Screenshot 2026-06-12 221153.png" alt="Beauty treatments" loading="lazy" />
-          </div>
-          <div class="service-body">
-            <h3 class="service-name" data-i18n="srv_beauty_title">Beauty Treatments</h3>
-            <p class="service-desc" data-i18n="srv_beauty_desc">Facials, lash extensions, brow shaping, and complete skin-care services.</p>
-            <span class="service-price-tag" data-i18n="srv_beauty_price">From $45</span>
-          </div>
+        <article class="service-card reveal-on-scroll delay-300" data-category="color">
+          <a href="hair-color-baytown-tx.html" class="service-card-link">
+            <div class="service-img-wrap">
+              <img class="service-img" src="photos/hero_transformation.png" alt="Custom Hair Color" loading="lazy" />
+            </div>
+            <div class="service-body">
+              <h3 class="service-name"><span data-i18n="srv_color_title">Custom Hair Color</span> <i class="fa-solid fa-arrow-right service-link-arrow"></i></h3>
+              <p class="service-desc" data-i18n="srv_color_desc">All-over rich color formulations customized to complement your skin tone and style.</p>
+              <span class="service-price-tag" data-i18n="srv_color_price">From $95</span>
+            </div>
+          </a>
         </article>
 
-        <article class="service-card reveal-on-scroll" data-category="hair">
-          <div class="service-img-wrap">
-            <img class="service-img" src="photos/Screenshot 2026-06-12 221203.png" alt="Blowout and silk press" loading="lazy" />
-          </div>
-          <div class="service-body">
-            <h3 class="service-name" data-i18n="srv_blowout_title">Blowout &amp; Finish</h3>
-            <p class="service-desc" data-i18n="srv_blowout_desc">Silk press, keratin treatments, and professional blowouts for sleek results.</p>
-            <span class="service-price-tag" data-i18n="srv_blowout_price">From $40</span>
-          </div>
+        <article class="service-card reveal-on-scroll delay-100" data-category="style">
+          <a href="#booking" class="service-card-link">
+            <div class="service-img-wrap">
+              <img class="service-img" src="photos/styling.png" alt="Structural Cuts" loading="lazy" />
+            </div>
+            <div class="service-body">
+              <h3 class="service-name"><span data-i18n="srv_haircuts_title">Structural Cuts</span></h3>
+              <p class="service-desc" data-i18n="srv_haircuts_desc">Precision structural cuts tailored to your face shape, features, and natural hair texture.</p>
+              <span class="service-price-tag" data-i18n="srv_haircuts_price">From $65</span>
+            </div>
+          </a>
         </article>
 
-        <article class="service-card reveal-on-scroll delay-100" data-category="beauty">
-          <div class="service-img-wrap">
-            <img class="service-img" src="photos/Screenshot 2026-06-12 221110.png" alt="Salon packages" loading="lazy" />
-          </div>
-          <div class="service-body">
-            <h3 class="service-name" data-i18n="srv_salon_title">Salon Packages</h3>
-            <p class="service-desc" data-i18n="srv_salon_desc">Full-day makeover packages combining multiple services for a complete transformation.</p>
-            <span class="service-price-tag" data-i18n="srv_salon_price">Packages</span>
-          </div>
+        <article class="service-card reveal-on-scroll delay-200" data-category="style">
+          <a href="#booking" class="service-card-link">
+            <div class="service-img-wrap">
+              <img class="service-img" src="photos/styling.png" alt="Signature Blowout" loading="lazy" />
+            </div>
+            <div class="service-body">
+              <h3 class="service-name"><span data-i18n="srv_blowout_title">Signature Blowout</span></h3>
+              <p class="service-desc" data-i18n="srv_blowout_desc">Voluminous, smooth blowouts and styling for an editorial, polished finish.</p>
+              <span class="service-price-tag" data-i18n="srv_blowout_price">From $55</span>
+            </div>
+          </a>
         </article>
 
-        <article class="service-card reveal-on-scroll delay-200" data-category="beauty">
-          <div class="service-img-wrap">
-            <img class="service-img" src="photos/Screenshot 2026-06-12 221214.png" alt="Bridal styling" loading="lazy" />
-          </div>
-          <div class="service-body">
-            <h3 class="service-name" data-i18n="srv_bridal_title">Bridal Styling</h3>
-            <p class="service-desc" data-i18n="srv_bridal_desc">Wedding, quinceañera, and special occasion hair and makeup for your perfect day.</p>
-            <span class="service-price-tag" data-i18n="srv_bridal_price">From $120</span>
-          </div>
+        <article class="service-card reveal-on-scroll delay-300" data-category="care">
+          <a href="#booking" class="service-card-link">
+            <div class="service-img-wrap">
+              <img class="service-img" src="photos/salon_interior.png" alt="Luxury Treatments" loading="lazy" />
+            </div>
+            <div class="service-body">
+              <h3 class="service-name"><span data-i18n="srv_treatments_title">Luxury Treatments</span></h3>
+              <p class="service-desc" data-i18n="srv_treatments_desc">Deep conditioning and structural bond-building therapies to preserve hair integrity.</p>
+              <span class="service-price-tag" data-i18n="srv_treatments_price">From $45</span>
+            </div>
+          </a>
         </article>
-
-        <article class="service-card reveal-on-scroll delay-300" data-category="hair">
-          <div class="service-img-wrap">
-            <img class="service-img" src="photos/Screenshot 2026-06-12 221020.png" alt="Braids and textures" loading="lazy" />
-          </div>
-          <div class="service-body">
-            <h3 class="service-name" data-i18n="srv_braids_title">Braids &amp; Textures</h3>
-            <p class="service-desc" data-i18n="srv_braids_desc">Box braids, knotless braids, twists, and all protective styling for natural hair.</p>
-            <span class="service-price-tag" data-i18n="srv_braids_price">From $55</span>
-          </div>
-        </article>
-
       </div>
     </div>
   </section>
 
 
   <!-- ================================================================
-       GALLERY
+       TRANSFORMATION PROCESS
        ================================================================ -->
-  <section id="gallery" class="gallery section">
+  <section class="transformation-process section">
     <div class="container">
       <div class="section-header reveal-on-scroll">
-        <span class="section-label" data-i18n="gallery_label">Our Work</span>
-        <h2 class="section-title" data-i18n="gallery_title">The Transformation<br>Gallery</h2>
-        <p class="section-subtitle" data-i18n="gallery_subtitle">Real results from real clients at Mercedes Salon.</p>
+        <span class="section-label" data-i18n="process_title">The Transformation Journey</span>
+        <h2 class="section-title" data-i18n="process_title">The Transformation Journey</h2>
       </div>
-
-      <div class="gallery-filters reveal-on-scroll delay-100">
-        <button class="tab-btn active" data-filter="all"    data-i18n="gf_all">All</button>
-        <button class="tab-btn"        data-filter="hair"   data-i18n="gf_hair">Hair</button>
-        <button class="tab-btn"        data-filter="nails"  data-i18n="gf_nails">Nails</button>
-        <button class="tab-btn"        data-filter="beauty" data-i18n="gf_beauty">Beauty</button>
-        <button class="tab-btn"        data-filter="salon"  data-i18n="gf_salon">Salon</button>
-      </div>
-
-      <div class="gallery-grid">
-
-        <div class="gallery-item" data-category="salon">
-          <div class="gallery-img-wrap">
-            <img src="photos/Screenshot 2026-06-12 221020.png" alt="Salon chairs" loading="lazy" />
-            <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
-          </div>
+      <div class="process-grid reveal-on-scroll">
+        <div class="process-step">
+          <h3 data-i18n="process_step1_title">1. Bespoke Consultation</h3>
+          <p data-i18n="process_step1_desc">We analyze your hair health, history, and goals to design a customized plan.</p>
         </div>
-
-        <div class="gallery-item" data-category="hair">
-          <div class="gallery-img-wrap">
-            <img src="photos/Screenshot 2026-06-12 221031.png" alt="Stylist with client" loading="lazy" />
-            <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
-          </div>
+        <div class="process-step">
+          <h3 data-i18n="process_step2_title">2. Clean Chemistry</h3>
+          <p data-i18n="process_step2_desc">We formulate with premium bond-builders to protect your hair's structural integrity.</p>
         </div>
-
-        <div class="gallery-item" data-category="hair">
-          <div class="gallery-img-wrap">
-            <img src="photos/Screenshot 2026-06-12 221039.png" alt="Vivid red hair" loading="lazy" />
-            <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
-          </div>
+        <div class="process-step">
+          <h3 data-i18n="process_step3_title">3. Artful Execution</h3>
+          <p data-i18n="process_step3_desc">Your custom look is hand-painted or foiled with precision and patience.</p>
         </div>
-
-        <div class="gallery-item" data-category="hair">
-          <div class="gallery-img-wrap">
-            <img src="photos/Screenshot 2026-06-12 221049.png" alt="Hair highlights" loading="lazy" />
-            <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
-          </div>
+        <div class="process-step">
+          <h3 data-i18n="process_step4_title">4. Tailored Aftercare</h3>
+          <p data-i18n="process_step4_desc">We establish a home maintenance plan to extend the life and vibrancy of your color.</p>
         </div>
-
-        <div class="gallery-item" data-category="salon">
-          <div class="gallery-img-wrap">
-            <img src="photos/Screenshot 2026-06-12 221110.png" alt="Styling stations" loading="lazy" />
-            <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
-          </div>
-        </div>
-
-        <div class="gallery-item" data-category="salon">
-          <div class="gallery-img-wrap">
-            <img src="photos/Screenshot 2026-06-12 221120.png" alt="Storefront" loading="lazy" />
-            <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
-          </div>
-        </div>
-
-        <div class="gallery-item" data-category="nails">
-          <div class="gallery-img-wrap">
-            <img src="photos/Screenshot 2026-06-12 221127.png" alt="Nail art" loading="lazy" />
-            <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
-          </div>
-        </div>
-
-        <div class="gallery-item" data-category="salon">
-          <div class="gallery-img-wrap">
-            <img src="photos/Screenshot 2026-06-12 221141.png" alt="Salon entrance" loading="lazy" />
-            <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
-          </div>
-        </div>
-
-        <div class="gallery-item" data-category="beauty">
-          <div class="gallery-img-wrap">
-            <img src="photos/Screenshot 2026-06-12 221153.png" alt="Beauty lash treatment" loading="lazy" />
-            <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
-          </div>
-        </div>
-
-        <div class="gallery-item" data-category="hair">
-          <div class="gallery-img-wrap">
-            <img src="photos/Screenshot 2026-06-12 221203.png" alt="Silky straight hair" loading="lazy" />
-            <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
-          </div>
-        </div>
-
-        <div class="gallery-item" data-category="beauty">
-          <div class="gallery-img-wrap">
-            <img src="photos/Screenshot 2026-06-12 221214.png" alt="Stylist portrait" loading="lazy" />
-            <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
-          </div>
-        </div>
-
-        <div class="gallery-item" data-category="salon">
-          <div class="gallery-img-wrap">
-            <img src="photos/Screenshot 2026-06-12 221226.png" alt="Waiting area" loading="lazy" />
-            <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
-          </div>
-        </div>
-
       </div>
     </div>
   </section>
 
 
   <!-- ================================================================
-       ABOUT
-       ================================================================ -->
-  <section id="about" class="about section">
-    <div class="container">
-      <div class="about-grid">
-
-        <div class="about-gallery-slider reveal-on-scroll">
-          <div class="slider-container">
-            <div class="slide"><img src="photos/Screenshot 2026-06-12 221120.png" alt="Storefront" loading="lazy" /></div>
-            <div class="slide"><img src="photos/Screenshot 2026-06-12 221110.png" alt="Styling stations" loading="lazy" /></div>
-            <div class="slide"><img src="photos/Screenshot 2026-06-12 221141.png" alt="Salon entrance" loading="lazy" /></div>
-            <div class="slide"><img src="photos/Screenshot 2026-06-12 221226.png" alt="Waiting area" loading="lazy" /></div>
-          </div>
-          <button class="slider-btn slider-btn-prev" aria-label="Previous slide"><i class="fa-solid fa-chevron-left"></i></button>
-          <button class="slider-btn slider-btn-next" aria-label="Next slide"><i class="fa-solid fa-chevron-right"></i></button>
-          <div class="slider-dots" role="tablist" aria-label="Slider navigation"></div>
-        </div>
-
-        <div class="about-content reveal-on-scroll delay-200">
-          <span class="about-eyebrow" data-i18n="about_label">Our Story</span>
-          <h2 class="about-title" data-i18n="about_title">Beauty Crafted with<br>Heart &amp; Precision</h2>
-          <p class="about-body" data-i18n="about_p1">
-            Mercedes Salon was founded with a simple mission: make every client feel beautiful, confident, and at home. Our team of experienced stylists brings years of expertise to every appointment.
-          </p>
-          <p class="about-body" data-i18n="about_p2">
-            Located in the heart of Baytown, TX, we serve our community with premium services, genuine care, and a passion for the craft that shows in every result.
-          </p>
-          <ul class="about-features">
-            <li class="about-feat"><span class="about-feat-dot"></span><span data-i18n="about_feat1">Licensed and experienced stylists</span></li>
-            <li class="about-feat"><span class="about-feat-dot"></span><span data-i18n="about_feat2">Premium product lines only</span></li>
-            <li class="about-feat"><span class="about-feat-dot"></span><span data-i18n="about_feat3">English &amp; Spanish services available</span></li>
-            <li class="about-feat"><span class="about-feat-dot"></span><span data-i18n="about_feat4">Walk-ins welcome · Appointments preferred</span></li>
-          </ul>
-          <div class="about-ctas">
-            <a href="#booking" class="btn btn-primary" data-i18n="about_cta_book">Book Appointment</a>
-            <a href="#contact" class="btn btn-outline" data-i18n="about_cta_contact">Contact Us</a>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-
-  <!-- ================================================================
-       REVIEWS
+       REVIEWS (Google Reviews Format)
        ================================================================ -->
   <section id="reviews" class="reviews section">
     <div class="container">
       <div class="section-header reveal-on-scroll">
-        <span class="section-label" data-i18n="reviews_label">Client Love</span>
-        <h2 class="section-title" data-i18n="reviews_title">What Our Clients<br>Are Saying</h2>
+        <span class="section-label" data-i18n="reviews_label">Client Stories</span>
+        <h2 class="section-title" data-i18n="reviews_title">Why Clients Trust<br>Our Real Results</h2>
       </div>
 
       <div class="reviews-carousel reveal-on-scroll delay-100">
@@ -537,48 +548,44 @@
 
           <div class="review-slide">
             <div class="review-card">
-              <span class="review-quote-mark">"</span>
-              <p class="review-text" data-i18n="review1_text">Mercedes Salon completely transformed my hair! The balayage turned out exactly how I wanted — better even. I'll never go anywhere else.</p>
               <div class="review-stars">
                 <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
               </div>
-              <p class="review-author" data-i18n="review1_author">Maria G.</p>
+              <p class="review-text">"<span data-i18n="review1_text">I finally found someone I trust with my blonde. The balayage grew out so naturally, and my hair feels healthier than ever.</span>"</p>
+              <p class="review-author">— <span data-i18n="review1_author">Jessica M.</span></p>
               <p class="review-source" data-i18n="review1_source">Google Review</p>
             </div>
           </div>
 
           <div class="review-slide">
             <div class="review-card">
-              <span class="review-quote-mark">"</span>
-              <p class="review-text" data-i18n="review2_text">Best salon experience in Baytown, hands down. The staff is professional and the atmosphere is so welcoming. My nails have never looked better!</p>
               <div class="review-stars">
                 <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
               </div>
-              <p class="review-author" data-i18n="review2_author">Sandra R.</p>
+              <p class="review-text">"<span data-i18n="review2_text">The only place in Baytown I'd trust with a color correction. Mercedes is a master of hair health and dimensional color.</span>"</p>
+              <p class="review-author">— <span data-i18n="review2_author">Sandra R.</span></p>
               <p class="review-source" data-i18n="review2_source">Google Review</p>
             </div>
           </div>
 
           <div class="review-slide">
             <div class="review-card">
-              <span class="review-quote-mark">"</span>
-              <p class="review-text" data-i18n="review3_text">I came in for a bridal package and it was flawless! The team listened to exactly what I wanted and delivered perfection for my big day.</p>
               <div class="review-stars">
                 <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
               </div>
-              <p class="review-author" data-i18n="review3_author">Ashley T.</p>
+              <p class="review-text">"<span data-i18n="review3_text">Mercedes is incredibly knowledgeable. She explained the science of my correction and saved my hair from a previous disaster!</span>"</p>
+              <p class="review-author">— <span data-i18n="review3_author">Ashley T.</span></p>
               <p class="review-source" data-i18n="review3_source">Google Review</p>
             </div>
           </div>
 
           <div class="review-slide">
             <div class="review-card">
-              <span class="review-quote-mark">"</span>
-              <p class="review-text" data-i18n="review4_text">Excelente servicio y muy profesional. Me encantó mi corte nuevo. Hablan español y eso lo hace mucho más cómodo. ¡Definitivamente vuelvo!</p>
               <div class="review-stars">
                 <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
               </div>
-              <p class="review-author" data-i18n="review4_author">Carmen L.</p>
+              <p class="review-text">"<span data-i18n="review4_text">Excelente servicio y muy profesional. Mercedes habla español perfectamente y comprendió exactamente lo que quería para mi retoque de color.</span>"</p>
+              <p class="review-author">— <span data-i18n="review4_author">Carmen L.</span></p>
               <p class="review-source" data-i18n="review4_source">Google Review</p>
             </div>
           </div>
@@ -598,25 +605,107 @@
 
 
   <!-- ================================================================
-       CONTACT
+       INSTAGRAM WALL
+       ================================================================ -->
+  <section class="instagram-wall section">
+    <div class="container">
+      <div class="section-header reveal-on-scroll">
+        <span class="section-label" data-i18n="insta_badge">Instagram</span>
+        <h2 class="section-title" data-i18n="insta_title">Follow Our Artistry @Mercedes_Salon</h2>
+        <p class="section-subtitle" data-i18n="insta_subtitle">Stay updated with our latest client transformations, tips, and behind-the-scenes moments.</p>
+      </div>
+      <div class="insta-grid reveal-on-scroll">
+        <div class="insta-item">
+          <img src="photos/hero_transformation.png" alt="Dimensional Balayage Artistry" loading="lazy" />
+        </div>
+        <div class="insta-item">
+          <img src="photos/balayage_after.png" alt="Perfect Hair Color Transformation" loading="lazy" />
+        </div>
+        <div class="insta-item">
+          <img src="photos/highlights.png" alt="Bespoke Dimensional Highlights" loading="lazy" />
+        </div>
+        <div class="insta-item">
+          <img src="photos/styling.png" alt="Precision Structural Styling" loading="lazy" />
+        </div>
+      </div>
+      <div class="insta-cta-wrap reveal-on-scroll">
+        <a href="https://instagram.com" target="_blank" rel="noopener" class="btn btn-outline" data-i18n="insta_follow_btn">Follow on Instagram</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ================================================================
+       FAQ SECTION
+       ================================================================ -->
+  <section id="faq" class="faq section">
+    <div class="container">
+      <div class="section-header reveal-on-scroll">
+        <span class="section-label" data-i18n="faq_label">FAQ</span>
+        <h2 class="section-title" data-i18n="faq_title">Frequently Asked Questions</h2>
+        <p class="section-subtitle" data-i18n="faq_subtitle">Common questions about our salon, color disciplines, and booking process.</p>
+      </div>
+      <div class="faq-grid reveal-on-scroll delay-100">
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span data-i18n="faq_q1">What is a hair transformation consultation?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p data-i18n="faq_a1">A 15-minute diagnostic session where Mercedes analyzes your hair's history, current structural integrity, and goals. We establish a realistic roadmap and custom formula plan before starting any chemical work.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span data-i18n="faq_q2">How long does a balayage or color correction take?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p data-i18n="faq_a2">Premium balayage and highlights typically require 3 to 4 hours, depending on hair length and density. Complex color corrections can take 4 to 6 hours as we prioritize hair health and perform progressive lightening stages.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span data-i18n="faq_q3">Do you use protective bond-builders during color services?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p data-i18n="faq_a3">Yes. Every single lightening and coloring service includes advanced bond-building therapy (like Olaplex) built directly into the formulation to protect, reconstruct, and restore your hair's structural bonds.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span data-i18n="faq_q4">How should I prepare for my color appointment?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p data-i18n="faq_a4">We recommend coming with clean, dry hair. Please avoid heavy root touch-up sprays or waxes. Prepare a list of your hair color history from the last 2 years, including box dyes, as this influences chemical formulations.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ================================================================
+       CONTACT & BOOKING (Consultation CTA section)
        ================================================================ -->
   <section id="contact" class="contact section">
     <div class="container">
       <div class="section-header reveal-on-scroll">
-        <span class="section-label" data-i18n="contact_label">Get In Touch</span>
-        <h2 class="section-title" data-i18n="contact_title">Visit Us in<br>Baytown, TX</h2>
-        <p class="section-subtitle" data-i18n="contact_subtitle">We're ready to serve you. Book by phone, WhatsApp, or online.</p>
+        <span class="section-label" data-i18n="contact_label">Connect</span>
+        <h2 class="section-title" data-i18n="contact_title">Visit Our Studio in<br>Baytown, TX</h2>
+        <p class="section-subtitle" data-i18n="contact_subtitle">Available by appointment. Connect via phone, WhatsApp, or request online.</p>
       </div>
 
       <div class="contact-grid">
-
         <div class="contact-info reveal-on-scroll">
           <div class="contact-item">
             <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
             <div>
               <p class="contact-item-label" data-i18n="contact_addr_label">Address</p>
               <p class="contact-item-value">
-                <a href="https://maps.google.com/?q=Mercedes+Salon+Baytown+TX" target="_blank" rel="noopener" data-i18n="contact_addr">Baytown, Texas</a>
+                <a href="https://maps.google.com/?q=Mercedes+Salon+Baytown+TX" target="_blank" rel="noopener" data-i18n="contact_addr">4665 Garth Rd #200, Baytown, TX 77521</a>
               </p>
             </div>
           </div>
@@ -624,7 +713,7 @@
           <div class="contact-item">
             <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
             <div>
-              <p class="contact-item-label" data-i18n="contact_phone_label">Phone</p>
+              <p class="contact-item-label" data-i18n="contact_phone_label">Studio Phone</p>
               <p class="contact-item-value"><a href="tel:+12814224231">(281) 422-4231</a></p>
             </div>
           </div>
@@ -642,44 +731,38 @@
           <div class="contact-divider"></div>
           <div class="contact-ctas">
             <a href="tel:+12814224231" class="btn btn-outline-light" data-i18n="contact_cta_call">
-              <i class="fa-solid fa-phone"></i> Call Now
+              <i class="fa-solid fa-phone"></i> Call Studio
             </a>
             <a href="https://wa.me/12814224231" target="_blank" rel="noopener" class="btn btn-wa">
               <i class="fa-brands fa-whatsapp"></i> <span data-i18n="contact_cta_wa">WhatsApp</span>
             </a>
-            <a href="#booking" class="btn btn-primary" data-i18n="contact_cta_book">Book Online</a>
+            <a href="#booking" class="btn btn-primary" data-i18n="contact_cta_book">Book Consultation</a>
           </div>
         </div>
 
         <div class="map-container reveal-on-scroll delay-200">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55584.92857768!2d-94.976788!3d29.735682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x863f5a7f7f3b8d1d%3A0x1234567890abcdef!2sBaytown%2C%20TX!5e0!3m2!1sen!2sus!4v1234567890"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3460.6726205791995!2d-94.978252!3d29.7681279!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x863f5b7228807a97%3A0x12b5b3a4f6d352ef!2sMercedes+Salon!5e0!3m2!1sen!2sus!4v1234567890"
             allowfullscreen
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
             title="Mercedes Salon location in Baytown TX"
           ></iframe>
         </div>
-
       </div>
     </div>
   </section>
 
-
-  <!-- ================================================================
-       BOOKING
-       ================================================================ -->
   <section id="booking" class="booking section">
     <div class="container">
       <div class="section-header reveal-on-scroll">
         <span class="section-label" data-i18n="booking_label">Reserve Your Spot</span>
-        <h2 class="section-title" data-i18n="booking_title">Book Your<br>Appointment</h2>
+        <h2 class="section-title" data-i18n="booking_title">Book Your<br>Consultation</h2>
         <p class="section-subtitle" data-i18n="booking_subtitle">Fill out the form and we'll confirm via WhatsApp within the hour.</p>
       </div>
 
       <div class="booking-inner reveal-on-scroll delay-100">
         <form id="salon-booking-form" novalidate>
-
           <div class="form-group">
             <label class="form-label" for="book-name" data-i18n="form_name_label">Full Name *</label>
             <input class="form-input" type="text" id="book-name" name="name" required placeholder="Your full name" autocomplete="name" data-i18n-placeholder="form_name_ph" />
@@ -699,14 +782,13 @@
             <label class="form-label" for="book-service" data-i18n="form_service_label">Service *</label>
             <select class="form-input" id="book-service" name="service" required>
               <option value="" data-i18n="form_service_ph">Select a service</option>
-              <option value="haircut"  data-i18n="srv_haircuts_title">Haircuts &amp; Styling</option>
-              <option value="color"    data-i18n="srv_color_title">Color &amp; Highlights</option>
-              <option value="nails"    data-i18n="srv_nails_title">Nail Services</option>
-              <option value="beauty"   data-i18n="srv_beauty_title">Beauty Treatments</option>
-              <option value="blowout"  data-i18n="srv_blowout_title">Blowout &amp; Finish</option>
-              <option value="package"  data-i18n="srv_salon_title">Salon Packages</option>
-              <option value="bridal"   data-i18n="srv_bridal_title">Bridal Styling</option>
-              <option value="braids"   data-i18n="srv_braids_title">Braids &amp; Textures</option>
+              <option value="consultation" data-i18n="srv_correction_title">Color Correction</option>
+              <option value="balayage" data-i18n="srv_balayage_title">Balayage Mastery</option>
+              <option value="highlights" data-i18n="srv_highlights_title">Dimensional Highlights</option>
+              <option value="color" data-i18n="srv_color_title">Custom Hair Color</option>
+              <option value="haircut"  data-i18n="srv_haircuts_title">Structural Cuts</option>
+              <option value="blowout"  data-i18n="srv_blowout_title">Signature Blowout</option>
+              <option value="treatments" data-i18n="srv_treatments_title">Luxury Treatments</option>
             </select>
           </div>
 
@@ -726,12 +808,12 @@
           </div>
 
           <div class="booking-footer form-group-full">
-            <button type="submit" class="btn btn-primary btn-lg btn-submit" data-i18n="form_submit">Confirm Booking</button>
+            <button type="submit" class="btn btn-primary btn-lg btn-submit" data-i18n="form_submit">Request Consultation</button>
             <div class="booking-alt">
               <p class="booking-alt-label" data-i18n="booking_alt_label">Or book directly via</p>
               <div class="booking-alt-btns">
                 <a href="tel:+12814224231" class="btn btn-outline btn-sm">
-                  <i class="fa-solid fa-phone"></i> <span data-i18n="contact_cta_call">Call Now</span>
+                  <i class="fa-solid fa-phone"></i> <span data-i18n="contact_cta_call">Call Studio</span>
                 </a>
                 <a href="https://wa.me/12814224231" target="_blank" rel="noopener" class="btn btn-wa btn-sm">
                   <i class="fa-brands fa-whatsapp"></i> WhatsApp
@@ -739,7 +821,6 @@
               </div>
             </div>
           </div>
-
         </form>
       </div>
     </div>
@@ -752,10 +833,9 @@
   <footer>
     <div class="container">
       <div class="footer-grid">
-
         <div class="footer-brand">
           <span class="logo-text">Mercedes<span class="logo-accent">.</span></span>
-          <p class="footer-tagline" data-i18n="footer_tagline">Premium hair, nails &amp; beauty services in Baytown, Texas.</p>
+          <p class="footer-tagline" data-i18n="footer_tagline">Premium Hair Transformation Studio in Baytown, Texas.</p>
           <div class="footer-socials">
             <a href="https://instagram.com" target="_blank" rel="noopener" class="social-icon" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
             <a href="https://facebook.com" target="_blank" rel="noopener" class="social-icon" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
@@ -768,7 +848,7 @@
           <ul class="footer-links">
             <li><a href="#hero"     data-i18n="nav_home">Home</a></li>
             <li><a href="#services" data-i18n="nav_services">Services</a></li>
-            <li><a href="#gallery"  data-i18n="nav_gallery">Gallery</a></li>
+            <li><a href="#transformations"  data-i18n="nav_gallery">Gallery</a></li>
             <li><a href="#about"    data-i18n="nav_about">About</a></li>
             <li><a href="#booking"  data-i18n="nav_book">Book Now</a></li>
           </ul>
@@ -786,10 +866,10 @@
           <h4 data-i18n="footer_contact_title">Contact</h4>
           <div class="footer-contact-item"><i class="fa-solid fa-phone"></i><a href="tel:+12814224231">(281) 422-4231</a></div>
           <div class="footer-contact-item"><i class="fa-brands fa-whatsapp"></i><a href="https://wa.me/12814224231" target="_blank" rel="noopener">WhatsApp</a></div>
-          <div class="footer-contact-item"><i class="fa-solid fa-location-dot"></i><span data-i18n="contact_addr">Baytown, Texas</span></div>
+          <div class="footer-contact-item"><i class="fa-solid fa-location-dot"></i><span data-i18n="contact_addr">4665 Garth Rd #200, Baytown, TX 77521</span></div>
         </div>
-
       </div>
+
       <div class="footer-bottom">
         <span>© 2026 Mercedes Salon. All rights reserved.</span>
         <span data-i18n="footer_built">Built with care for our community.</span>
@@ -833,7 +913,7 @@
   <div class="modal-overlay" id="booking-success-modal" role="dialog" aria-modal="true">
     <div class="modal-box">
       <div class="modal-icon"><i class="fa-solid fa-check"></i></div>
-      <h3 data-i18n="modal_title">Appointment Request Sent!</h3>
+      <h3 data-i18n="modal_title">Consultation Requested!</h3>
       <p class="modal-text" data-i18n="modal_text">Thank you! We've received your booking request.</p>
       <p class="modal-subtext" id="modal-success-description" data-i18n="modal_subtext">We'll confirm your appointment via WhatsApp shortly.</p>
       <div class="modal-btns">
