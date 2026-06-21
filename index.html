@@ -59,7 +59,6 @@
 
         <!-- LEFT: Text Column (45%) -->
         <div class="hero-text">
-          <span class="deco-plus" aria-hidden="true">+</span>
 
           <div class="hero-eyebrow">
             <span class="hero-eyebrow-dot" aria-hidden="true"></span>
@@ -99,42 +98,13 @@
 
         <!-- RIGHT: Visual Column (55%) -->
         <div class="hero-visual" aria-hidden="true">
-          <div class="hero-img-card">
+          <div class="hero-img-card landscape">
             <img
-              src="photos/hero_transformation.png"
+              src="photos/landing.png"
               alt="Premium hair color transformation at Mercedes Studio"
               loading="eager"
             />
-
-            <!-- Floating badge top-right -->
-            <div class="hero-float-badge badge-tr">
-              <div class="badge-icon"><i class="fa-solid fa-scissors"></i></div>
-              <div class="badge-text">
-                <div class="badge-value">1,248</div>
-                <div class="badge-label" data-i18n="trust_lbl_transformations">Transformations</div>
-              </div>
-            </div>
-
-            <!-- Floating badge middle-left -->
-            <div class="hero-float-badge badge-ml">
-              <div class="badge-icon" style="background:#D4AF37;"><i class="fa-solid fa-star"></i></div>
-              <div class="badge-text">
-                <div class="badge-value">4.9 ★</div>
-                <div class="badge-label" data-i18n="trust_lbl_rating">Google Rating</div>
-              </div>
-            </div>
-
-            <!-- Floating badge bottom-right -->
-            <div class="hero-float-badge badge-br">
-              <div class="badge-icon"><i class="fa-solid fa-medal"></i></div>
-              <div class="badge-text">
-                <div class="badge-value" data-i18n="hero_badge_sub">Color Specialist</div>
-                <div class="badge-label">Mercedes Studio</div>
-              </div>
-            </div>
           </div>
-
-          <span class="hero-deco-right" aria-hidden="true">+</span>
         </div>
 
       </div>
@@ -177,49 +147,41 @@
         <button class="tab-btn active" data-filter="all"    data-i18n="gf_all">All Work</button>
         <button class="tab-btn"        data-filter="color"  data-i18n="gf_color">Balayage & Color</button>
         <button class="tab-btn"        data-filter="cuts"   data-i18n="gf_cuts">Structural Cuts</button>
-        <button class="tab-btn"        data-filter="salon"  data-i18n="gf_salon">The Space</button>
       </div>
 
       <div class="gallery-grid reveal-on-scroll delay-200">
-        <div class="gallery-item" data-category="salon">
+        <div class="gallery-item" data-category="color">
           <div class="gallery-img-wrap">
-            <img src="photos/salon_interior.png" alt="Salon Interior" loading="lazy" />
-            <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            <img src="photos/sample1.jpg" alt="Dimensional Balayage Transformation" loading="lazy" />
+            <div class="gallery-overlay"><i class="fa-solid fa-eye"></i></div>
           </div>
         </div>
 
         <div class="gallery-item" data-category="color">
           <div class="gallery-img-wrap">
-            <img src="photos/balayage_after.png" alt="Dimensional Balayage" loading="lazy" />
-            <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            <img src="photos/sample2.jpg" alt="Vivid Hair Color Restoration" loading="lazy" />
+            <div class="gallery-overlay"><i class="fa-solid fa-eye"></i></div>
           </div>
         </div>
 
         <div class="gallery-item" data-category="color">
           <div class="gallery-img-wrap">
-            <img src="photos/hero_transformation.png" alt="Vivid Color Correction" loading="lazy" />
-            <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
-          </div>
-        </div>
-
-        <div class="gallery-item" data-category="color">
-          <div class="gallery-img-wrap">
-            <img src="photos/highlights.png" alt="Dimensional Highlights" loading="lazy" />
-            <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            <img src="photos/sample3.jpg" alt="Dimensional Highlights Work" loading="lazy" />
+            <div class="gallery-overlay"><i class="fa-solid fa-eye"></i></div>
           </div>
         </div>
 
         <div class="gallery-item" data-category="cuts">
           <div class="gallery-img-wrap">
-            <img src="photos/styling.png" alt="Precision Structural Cut & Style" loading="lazy" />
-            <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            <img src="photos/sample5.jpg" alt="Precision Structural Styling & Cut" loading="lazy" />
+            <div class="gallery-overlay"><i class="fa-solid fa-eye"></i></div>
           </div>
         </div>
 
-        <div class="gallery-item" data-category="salon">
+        <div class="gallery-item" data-category="color">
           <div class="gallery-img-wrap">
-            <img src="photos/mercedes_stylist.png" alt="Mercedes working in studio" loading="lazy" />
-            <div class="gallery-overlay"><i class="fa-solid fa-magnifying-glass-plus"></i></div>
+            <img src="photos/sample4.jpg" alt="Premium Hair Highlights Transformation" loading="lazy" />
+            <div class="gallery-overlay"><i class="fa-solid fa-eye"></i></div>
           </div>
         </div>
       </div>
@@ -253,7 +215,7 @@
     <div class="container">
       <div class="about-grid">
         <div class="about-image-wrap reveal-on-scroll">
-          <img src="photos/mercedes_stylist.png" alt="Mercedes, Master Colorist & Stylist" loading="lazy" />
+          <video class="about-video" src="about us.mp4" controls poster="photos/landing.png" preload="metadata" aria-label="Founder Mercedes video message"></video>
         </div>
 
         <div class="about-content reveal-on-scroll delay-200">
@@ -271,6 +233,13 @@
             <li class="about-feat"><span class="about-feat-dot"></span><span data-i18n="about_feat3">Seamless bilingual consultations (English & Spanish)</span></li>
             <li class="about-feat"><span class="about-feat-dot"></span><span data-i18n="about_feat4">Focused, one-on-one appointments for ultimate care</span></li>
           </ul>
+          <div class="founder-signature-block">
+            <img class="founder-avatar" src="photos/founder.png" alt="Mercedes, Master Colorist" loading="lazy" />
+            <div class="founder-sig-text">
+              <span class="founder-sig-name">Mercedes</span>
+              <span class="founder-sig-title">Founder & Master Colorist</span>
+            </div>
+          </div>
           <div class="about-ctas">
             <a href="#booking" class="btn btn-primary" data-i18n="about_cta_book">Book a Consultation</a>
             <a href="#contact" class="btn btn-outline" data-i18n="about_cta_contact">Contact Studio</a>
@@ -298,7 +267,7 @@
         <div class="svc-scroll-track" id="svcTrack">
           <article class="svc-card">
             <a href="balayage-baytown-tx.html" class="svc-card-link">
-              <img src="photos/balayage_after.png" alt="Balayage Mastery" loading="lazy" />
+              <img src="photos/sample1.jpg" alt="Balayage Mastery" loading="lazy" />
               <div class="svc-card-overlay"></div>
               <span class="svc-card-price" data-i18n="srv_balayage_price">From $185</span>
               <div class="svc-card-body">
@@ -311,7 +280,7 @@
 
           <article class="svc-card">
             <a href="color-correction-baytown-tx.html" class="svc-card-link">
-              <img src="photos/hero_transformation.png" alt="Color Correction" loading="lazy" />
+              <img src="photos/sample2.jpg" alt="Color Correction" loading="lazy" />
               <div class="svc-card-overlay"></div>
               <span class="svc-card-price" data-i18n="srv_correction_price">Consultation</span>
               <div class="svc-card-body">
@@ -324,7 +293,7 @@
 
           <article class="svc-card">
             <a href="highlights-baytown-tx.html" class="svc-card-link">
-              <img src="photos/highlights.png" alt="Dimensional Highlights" loading="lazy" />
+              <img src="photos/sample3.jpg" alt="Dimensional Highlights" loading="lazy" />
               <div class="svc-card-overlay"></div>
               <span class="svc-card-price" data-i18n="srv_highlights_price">From $145</span>
               <div class="svc-card-body">
@@ -337,7 +306,7 @@
 
           <article class="svc-card">
             <a href="hair-color-baytown-tx.html" class="svc-card-link">
-              <img src="photos/hero_transformation.png" alt="Custom Hair Color" loading="lazy" />
+              <img src="photos/sample4.jpg" alt="Custom Hair Color" loading="lazy" />
               <div class="svc-card-overlay"></div>
               <span class="svc-card-price" data-i18n="srv_color_price">From $95</span>
               <div class="svc-card-body">
@@ -350,7 +319,7 @@
 
           <article class="svc-card">
             <a href="#booking" class="svc-card-link">
-              <img src="photos/styling.png" alt="Structural Cuts" loading="lazy" />
+              <img src="photos/sample5.jpg" alt="Structural Cuts" loading="lazy" />
               <div class="svc-card-overlay"></div>
               <span class="svc-card-price" data-i18n="srv_haircuts_price">From $65</span>
               <div class="svc-card-body">
@@ -363,7 +332,7 @@
 
           <article class="svc-card">
             <a href="#booking" class="svc-card-link">
-              <img src="photos/styling.png" alt="Signature Blowout" loading="lazy" />
+              <img src="photos/sample2.jpg" alt="Signature Blowout" loading="lazy" />
               <div class="svc-card-overlay"></div>
               <span class="svc-card-price" data-i18n="srv_blowout_price">From $55</span>
               <div class="svc-card-body">
@@ -376,7 +345,7 @@
 
           <article class="svc-card">
             <a href="#booking" class="svc-card-link">
-              <img src="photos/salon_interior.png" alt="Luxury Treatments" loading="lazy" />
+              <img src="photos/landing.png" alt="Luxury Treatments" loading="lazy" />
               <div class="svc-card-overlay"></div>
               <span class="svc-card-price" data-i18n="srv_treatments_price">From $45</span>
               <div class="svc-card-body">
@@ -410,7 +379,7 @@
         <article class="service-card reveal-on-scroll" data-category="color">
           <a href="balayage-baytown-tx.html" class="service-card-link">
             <div class="service-img-wrap">
-              <img class="service-img" src="photos/balayage_after.png" alt="Balayage Mastery" loading="lazy" />
+              <img class="service-img" src="photos/sample1.jpg" alt="Balayage Mastery" loading="lazy" />
             </div>
             <div class="service-body">
               <h3 class="service-name"><span data-i18n="srv_balayage_title">Balayage Mastery</span> <i class="fa-solid fa-arrow-right service-link-arrow"></i></h3>
@@ -423,7 +392,7 @@
         <article class="service-card reveal-on-scroll delay-100" data-category="color">
           <a href="color-correction-baytown-tx.html" class="service-card-link">
             <div class="service-img-wrap">
-              <img class="service-img" src="photos/hero_transformation.png" alt="Color Correction" loading="lazy" />
+              <img class="service-img" src="photos/sample2.jpg" alt="Color Correction" loading="lazy" />
             </div>
             <div class="service-body">
               <h3 class="service-name"><span data-i18n="srv_correction_title">Color Correction</span> <i class="fa-solid fa-arrow-right service-link-arrow"></i></h3>
@@ -436,7 +405,7 @@
         <article class="service-card reveal-on-scroll delay-200" data-category="color">
           <a href="highlights-baytown-tx.html" class="service-card-link">
             <div class="service-img-wrap">
-              <img class="service-img" src="photos/highlights.png" alt="Dimensional Highlights" loading="lazy" />
+              <img class="service-img" src="photos/sample3.jpg" alt="Dimensional Highlights" loading="lazy" />
             </div>
             <div class="service-body">
               <h3 class="service-name"><span data-i18n="srv_highlights_title">Dimensional Highlights</span> <i class="fa-solid fa-arrow-right service-link-arrow"></i></h3>
@@ -449,7 +418,7 @@
         <article class="service-card reveal-on-scroll delay-300" data-category="color">
           <a href="hair-color-baytown-tx.html" class="service-card-link">
             <div class="service-img-wrap">
-              <img class="service-img" src="photos/hero_transformation.png" alt="Custom Hair Color" loading="lazy" />
+              <img class="service-img" src="photos/sample4.jpg" alt="Custom Hair Color" loading="lazy" />
             </div>
             <div class="service-body">
               <h3 class="service-name"><span data-i18n="srv_color_title">Custom Hair Color</span> <i class="fa-solid fa-arrow-right service-link-arrow"></i></h3>
@@ -462,7 +431,7 @@
         <article class="service-card reveal-on-scroll delay-100" data-category="style">
           <a href="#booking" class="service-card-link">
             <div class="service-img-wrap">
-              <img class="service-img" src="photos/styling.png" alt="Structural Cuts" loading="lazy" />
+              <img class="service-img" src="photos/sample5.jpg" alt="Structural Cuts" loading="lazy" />
             </div>
             <div class="service-body">
               <h3 class="service-name"><span data-i18n="srv_haircuts_title">Structural Cuts</span></h3>
@@ -475,7 +444,7 @@
         <article class="service-card reveal-on-scroll delay-200" data-category="style">
           <a href="#booking" class="service-card-link">
             <div class="service-img-wrap">
-              <img class="service-img" src="photos/styling.png" alt="Signature Blowout" loading="lazy" />
+              <img class="service-img" src="photos/sample2.jpg" alt="Signature Blowout" loading="lazy" />
             </div>
             <div class="service-body">
               <h3 class="service-name"><span data-i18n="srv_blowout_title">Signature Blowout</span></h3>
@@ -488,7 +457,7 @@
         <article class="service-card reveal-on-scroll delay-300" data-category="care">
           <a href="#booking" class="service-card-link">
             <div class="service-img-wrap">
-              <img class="service-img" src="photos/salon_interior.png" alt="Luxury Treatments" loading="lazy" />
+              <img class="service-img" src="photos/landing.png" alt="Luxury Treatments" loading="lazy" />
             </div>
             <div class="service-body">
               <h3 class="service-name"><span data-i18n="srv_treatments_title">Luxury Treatments</span></h3>
@@ -616,16 +585,16 @@
       </div>
       <div class="insta-grid reveal-on-scroll">
         <div class="insta-item">
-          <img src="photos/hero_transformation.png" alt="Dimensional Balayage Artistry" loading="lazy" />
+          <img src="photos/sample1.jpg" alt="Dimensional Balayage Artistry" loading="lazy" />
         </div>
         <div class="insta-item">
-          <img src="photos/balayage_after.png" alt="Perfect Hair Color Transformation" loading="lazy" />
+          <img src="photos/sample2.jpg" alt="Perfect Hair Color Transformation" loading="lazy" />
         </div>
         <div class="insta-item">
-          <img src="photos/highlights.png" alt="Bespoke Dimensional Highlights" loading="lazy" />
+          <img src="photos/sample3.jpg" alt="Bespoke Dimensional Highlights" loading="lazy" />
         </div>
         <div class="insta-item">
-          <img src="photos/styling.png" alt="Precision Structural Styling" loading="lazy" />
+          <img src="photos/sample4.jpg" alt="Precision Structural Styling" loading="lazy" />
         </div>
       </div>
       <div class="insta-cta-wrap reveal-on-scroll">
